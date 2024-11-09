@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 
 }
 
@@ -13,7 +14,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 70px;
-    height: 100vh;
+    max-width: 100%;  /* A largura da imagem vai ser no máximo 100% do seu contêiner */
+    background-repeat: no-repeat;
     justify-content: center;
 }
 
@@ -31,6 +33,7 @@ form{
     gap: 10px;
     margin: 0 10px;
     padding: 20px;
+    margin-top: 180px;
 }
 
 input, textarea, button{
